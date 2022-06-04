@@ -6,8 +6,8 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 
 - [Notes]() 上課筆記
 - [Quiz&Homeworks]() 測驗與作業的程式碼
-- [Handout]() 課程講義
-- [Example Database]() 課程講解用的資料庫
+- [Handout](https://github.com/Loukei/Course_StanfordOnline_Databases-Relational-Databases-and-SQL/tree/main/Handout) 課程講義
+- [Example Database](https://github.com/Loukei/Course_StanfordOnline_Databases-Relational-Databases-and-SQL/tree/main/Example%20Database) 課程講解用的資料庫
 
 ## Course Link
 
@@ -30,11 +30,11 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 	- NULL Values
 	- Data Modification Statements
 	- SQL Movie-Rating Query Exercises (9 Questions)
-	- Exercise due 2022年6月20日 GMT+8 17:16
+	- Exercise
 	- SQL Movie-Rating Query Exercises Extras
 	- SQL Social-Network Query Exercises (9 Questions)
-	- Exercise due 2022年6月20日 GMT+8 17:16
+	- Exercise
 	- SQL Social-Network Query Exercises Extras
 	- SQL Movie-Rating Modification Exercises (3 Questions)
-	- Exercise due 2022年6月20日 GMT+8 17:16
+	- Exercise
 	- SQL Social-Network Modification Exercises (3 Questions)
