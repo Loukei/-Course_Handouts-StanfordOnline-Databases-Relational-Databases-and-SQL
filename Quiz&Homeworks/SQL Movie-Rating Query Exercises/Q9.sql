@@ -42,3 +42,21 @@ FROM (
 	GROUP BY mID
 )LEFT JOIN Movie USING(mID)
 GROUP BY year < 1980;
+
+SELECT (
+	SELECT avg(AVG_stars)
+	FROM (
+		SELECT mID, avg(stars) AS AVG_stars
+		FROM Rating
+		GROUP BY mID
+	)LEFT JOIN Movie USING(mID)
+	WHERE year < 1980
+) - (
+	SELECT avg(AVG_stars)
+	FROM (
+		SELECT mID, avg(stars) AS AVG_stars
+		FROM Rating
+		GROUP BY mID
+	)LEFT JOIN Movie USING(mID)
+	WHERE year >= 1980
+);
