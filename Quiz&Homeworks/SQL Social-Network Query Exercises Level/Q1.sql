@@ -1,4 +1,7 @@
---- Find the names of all students who are friends with someone named Gabriel.
+/*
+## QUESTION
+Find the names of all students who are friends with someone named Gabriel.
+*/
 
 /* find student name Gabriel */
 -- SELECT ID,name
