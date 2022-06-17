@@ -30,14 +30,21 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 	- NULL Values
 	- Data Modification Statements
 	- SQL Movie-Rating Query Exercises (9 Questions)
-	- Exercise
 	- SQL Movie-Rating Query Exercises Extras
 	- SQL Social-Network Query Exercises (9 Questions)
-	- Exercise
 	- SQL Social-Network Query Exercises Extras
 	- SQL Movie-Rating Modification Exercises (3 Questions)
-	- Exercise
 	- SQL Social-Network Modification Exercises (3 Questions)
+
+## 個人認為比較困難的題目
+
+- SQL Movie-Rating Query Exercises
+  - Q6
+  - Q9
+- SQL Social-Network Query Exercises
+  - Q3
+  - Q6
+  - Q7
 
 ## Textbook Readings and Other Materials
 
