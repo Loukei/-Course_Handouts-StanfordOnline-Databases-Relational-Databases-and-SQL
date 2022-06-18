@@ -11,7 +11,7 @@ English: The reviewer with ID number rID has a certain name.
 Rating ( rID, mID, stars, ratingDate )
 English: The reviewer rID gave the movie mID a number of stars rating (1-5) on a certain ratingDate.
 
-Your queries will run over a small data set conforming to the schema. View the database. (You can also download the schema and data.)
+Your queries will run over a small data set conforming to the [schema](rating.sql). View the database. (You can also download the schema and data.)
 
 Instructions: Each problem asks you to write a query in SQL. To run your query against our back-end sample database using SQLite, click the "Submit" button. You will see a display of your query result and the expected result. If the results match, your query will be marked "correct". You may run as many queries as you like for each question.
 
