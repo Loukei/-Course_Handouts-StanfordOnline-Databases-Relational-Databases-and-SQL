@@ -29,12 +29,13 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 	- Aggregation
 	- NULL Values
 	- Data Modification Statements
-	- SQL Movie-Rating Query Exercises (9 Questions)
-	- SQL Movie-Rating Query Exercises Extras
-	- SQL Social-Network Query Exercises (9 Questions)
-	- SQL Social-Network Query Exercises Extras
-	- SQL Movie-Rating Modification Exercises (3 Questions)
-	- SQL Social-Network Modification Exercises (3 Questions)
+- Exercise
+  - SQL Movie-Rating Query Exercises (9 Questions)
+  - SQL Movie-Rating Query Exercises Extras
+  - SQL Social-Network Query Exercises (9 Questions)
+  - SQL Social-Network Query Exercises Extras
+  - SQL Movie-Rating Modification Exercises (3 Questions)
+  - SQL Social-Network Modification Exercises (3 Questions)
 
 ## 個人認為比較困難的題目
 
@@ -58,8 +59,8 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 
 ## 建議的資料庫
 
-**PostgreSQL**		推薦
-**MySQL**			不支持`Intersect`
-**SQLite**			不支持`ALL`語法
+- **PostgreSQL**:	推薦
+- **MySQL**:		不支持`Intersect`
+- **SQLite**:		不支持`ALL`語法
 
 個人建議只為了操作教學資料庫的話，可以使用DBAAS服務像是**HeroKu**，不用特意去花時間安裝環境
