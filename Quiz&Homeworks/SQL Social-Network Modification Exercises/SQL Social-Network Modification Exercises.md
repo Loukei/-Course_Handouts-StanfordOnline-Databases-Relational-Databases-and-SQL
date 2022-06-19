@@ -96,9 +96,7 @@ For all cases where A is friends with B, and B is friends with C, add a new frie
 
 To check your data modification statement, we ran the following query after your modification:
 ``` sql
-SELECT ID,
-       name,
-       grade,
+SELECT ID, name, grade,
   (SELECT count(*)
    FROM Friend
    WHERE id1 = H.id)
