@@ -24,26 +24,42 @@ WHERE L2.ID1 IS NULL;
 SELECT * FROM Likes 
 EXCEPT 
 SELECT L2.ID2 AS 'ID1', L2.ID1 AS 'ID2' FROM Likes L2;
-
-[DELETE WITH INTERSECT](https://stackoverflow.com/questions/31014126/delete-with-intersect)
-
 */
 
 
 /*
 ## ANS
 
-*/
-DELETE FROM Friend
+--- (A Likes B) AND (A Friend B)
+SELECT * 
+FROM Likes AS L1
 WHERE EXISTS(
 	SELECT *
-	FROM Likes L1
-	WHERE NOT EXISTS(
-		SELECT *
-		FROM Likes L2
-		WHERE L1.ID1 = L2.ID2 AND L1.ID2 = L2.ID1
-	) AND L1.ID1 = Friend.ID1 AND L1.ID2 = Friend.ID2
+	FROM Friend AS F
+	WHERE L1.ID1 = F.ID1 AND L1.ID2 = F.ID2
 );
 
-1641 Brittany		1468 Kris	
-1689 Gabriel		1247 Alexis	
+--- (A Likes B) AND (A Friend B) AND (B NOT Likes A)
+SELECT * 
+FROM Likes AS L1
+WHERE EXISTS(
+	SELECT *
+	FROM Friend AS F
+	WHERE L1.ID1 = F.ID1 AND L1.ID2 = F.ID2
+) AND NOT EXISTS(
+	SELECT *
+	FROM Likes AS L2
+	WHERE L1.ID1 = L2.ID2 AND L1.ID2 = L2.ID1 
+);
+
+*/
+DELETE FROM Likes AS L1
+WHERE EXISTS(
+	SELECT *
+	FROM Friend AS F
+	WHERE L1.ID1 = F.ID1 AND L1.ID2 = F.ID2
+) AND NOT EXISTS(
+	SELECT *
+	FROM Likes AS L2
+	WHERE L1.ID1 = L2.ID2 AND L1.ID2 = L2.ID1 
+);

@@ -35,6 +35,7 @@ FROM Highschooler
 ORDER BY ID;
 ```
 
+#### Expected Query Result:
 ```
 1101	Haley	10
 1247	Alexis	11
@@ -61,20 +62,29 @@ If two students A and B are friends, and A likes B but not vice-versa, remove th
 To check your data modification statement, we ran the following query after your modification:
 
 ``` sql
-SELECT H1.name,
-       H1.grade,
-       H2.name,
-       H2.grade
-FROM Likes L,
-     Highschooler H1,
-     Highschooler H2
-WHERE L.ID1 = H1.ID
-  AND L.ID2 = H2.ID
-ORDER BY H1.name,
-         H1.grade;
+SELECT H1.name, H1.grade, H2.name, H2.grade
+FROM Likes L, Highschooler H1, Highschooler H2
+WHERE L.ID1 = H1.ID AND L.ID2 = H2.ID
+ORDER BY H1.name, H1.grade;
 ```
 
-Expected Query Result:
+#### Expected Query Result:
+
+Before
+``` txt
+Alexis	11	Kris	10
+Andrew	10	Cassandra	9
+Austin	11	Jordan	12
+Brittany	10	Kris	10
+Cassandra	9	Gabriel	9
+Gabriel	9	Cassandra	9
+Gabriel	11	Alexis	11
+Jessica	11	Kyle	12
+John	12	Haley	10
+Kyle	12	Jessica	11
+```
+
+After
 ```
 Alexis	11	Kris	10
 Andrew	10	Cassandra	9
@@ -104,7 +114,7 @@ FROM Highschooler H
 ORDER BY ID;
 ```
 
-Expected Query Result:
+#### Expected Query Result:
 ```
 1025	John	12	2
 1101	Haley	10	3
