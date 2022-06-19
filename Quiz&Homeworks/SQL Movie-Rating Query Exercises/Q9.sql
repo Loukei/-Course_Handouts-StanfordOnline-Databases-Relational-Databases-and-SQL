@@ -60,3 +60,9 @@ SELECT (
 	)LEFT JOIN Movie USING(mID)
 	WHERE year >= 1980
 );
+
+
+--- 計算每部電影的總分、評論次數、以及年分
+SELECT mID, sum(stars) AS 'SUM_s', count(mID) AS 'COUNT', ( SELECT year FROM Movie WHERE Movie.mID = R.mID ) AS 'year'
+FROM Rating R
+GROUP BY mID;

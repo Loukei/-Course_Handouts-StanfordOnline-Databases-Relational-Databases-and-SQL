@@ -155,4 +155,27 @@ Find the difference between the average rating of movies released before 1980 an
 0.0555555555555558
 ```
 
+### PS
+
+這題似乎存在精度問題，我執行以下查詢計算的結果如下
+
+``` sql
+SELECT mID, AVG(stars) as 'AVG_stars', ( SELECT year FROM Movie WHERE Movie.mID = R.mID ) AS 'year'
+FROM Rating R
+GROUP BY mID;
+```
+
+```
+mID AVG_stars           year
+101	3.0	                1939
+103	2.5	                1965
+104	2.5	                1982
+106	4.5	                1937
+107	4.0	                2009
+108	3.33333333333333	1981
+```
+
+小於1980 = `(3 + 2.5 + 4.5)/3`
+大於1980 = `(4.0 + 2.5 + (10/3) )/3`
+兩者相減為`1/18`，約為`0.05555...`
 ---

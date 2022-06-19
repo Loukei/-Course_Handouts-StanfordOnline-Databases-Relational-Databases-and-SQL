@@ -41,7 +41,7 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 
 - SQL Movie-Rating Query Exercises
   - Q6
-  - Q9
+  - Q9: 這題的正解會依據機器計算循環小數的方式會有不同答案
 - SQL Social-Network Query Exercises
   - Q3
   - Q6
