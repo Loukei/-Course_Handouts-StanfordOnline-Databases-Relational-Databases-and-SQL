@@ -30,9 +30,9 @@ You may perform these exercises as many times as you like, so we strongly encour
 Find the names of all reviewers who rated Gone with the Wind.
 
 ### Expected Query Result:
+
 Sarah Martinez
 Mike Anderson
-
 
 ---
 
