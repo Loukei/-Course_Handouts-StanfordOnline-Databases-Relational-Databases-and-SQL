@@ -31,8 +31,10 @@ Find the names of all reviewers who rated Gone with the Wind.
 
 ### Expected Query Result:
 
+```
 Sarah Martinez
 Mike Anderson
+```
 
 ---
 
@@ -41,7 +43,10 @@ Mike Anderson
 For any rating where the reviewer is the same as the director of the movie, return the reviewer name, movie title, and number of stars.
 
 ### Expected Query Result:
+
+```
 James Cameron	Avatar	5
+```
 
 ---
 
@@ -51,6 +56,7 @@ Return all reviewer names and movie names together in a single list, alphabetize
 
 ### Expected Query Result:
 
+```
 Ashley White
 Avatar
 Brittany Harris
@@ -67,6 +73,7 @@ Snow White
 Star Wars
 The Sound of Music
 Titanic
+```
 
 ---
 
@@ -76,11 +83,13 @@ Find the titles of all movies not reviewed by Chris Jackson.
 
 ### Expected Query Result:
 
+```
 Gone with the Wind
 Star Wars
 Titanic
 Snow White
 Avatar
+```
 
 ---
 
@@ -90,11 +99,13 @@ For all pairs of reviewers such that both reviewers gave a rating to the same mo
 
 ### Expected Query Result:
 
+```
 Ashley White	Chris Jackson
 Brittany Harris	Chris Jackson
 Daniel Lewis	Elizabeth Thomas
 Elizabeth Thomas	James Cameron
 Mike Anderson	Sarah Martinez
+```
 
 ---
 
@@ -104,10 +115,12 @@ For each rating that is the lowest (fewest stars) currently in the database, ret
 
 ### Expected Query Result:
 
+```
 Sarah Martinez	Gone with the Wind	2
 Brittany Harris	The Sound of Music	2
 Brittany Harris	Raiders of the Lost Ark	2
 Chris Jackson	E.T.	2
+```
 
 ---
 
@@ -117,12 +130,14 @@ List movie titles and average ratings, from highest-rated to lowest-rated. If tw
 
 ### Expected Query Result:
 
+```
 Snow White	4.5
 Avatar	4
 Raiders of the Lost Ark	3.3333333333333335
 Gone with the Wind	3
 E.T.	2.5
 The Sound of Music	2.5
+```
 
 ---
 
@@ -131,8 +146,11 @@ The Sound of Music	2.5
 Find the names of all reviewers who have contributed three or more ratings. (As an extra challenge, try writing the query without HAVING or without COUNT.)
 
 ### Expected Query Result:
+
+```
 Brittany Harris
 Chris Jackson
+```
 
 ---
 
@@ -141,10 +159,13 @@ Chris Jackson
 Some directors directed more than one movie. For all such directors, return the titles of all movies directed by them, along with the director name. Sort by director name, then movie title. (As an extra challenge, try writing the query both with and without COUNT.)
 
 ### Expected Query Result:
+
+```
 Avatar	James Cameron
 Titanic	James Cameron
 E.T.	Steven Spielberg
 Raiders of the Lost Ark	Steven Spielberg
+```
 
 ---
 
@@ -153,7 +174,10 @@ Raiders of the Lost Ark	Steven Spielberg
 Find the movie(s) with the highest average rating. Return the movie title(s) and average rating. (Hint: This query is more difficult to write in SQLite than other systems; you might think of it as finding the highest average rating and then choosing the movie(s) with that average rating.)
 
 ### Expected Query Result:
+
+```
 Snow White	4.5
+```
 
 ---
 
@@ -162,8 +186,11 @@ Snow White	4.5
 Find the movie(s) with the lowest average rating. Return the movie title(s) and average rating. (Hint: This query may be more difficult to write in SQLite than other systems; you might think of it as finding the lowest average rating and then choosing the movie(s) with that average rating.)
 
 ### Expected Query Result:
+
+```
 The Sound of Music	2.5
 E.T.	2.5
+```
 
 ---
 
@@ -172,7 +199,10 @@ E.T.	2.5
 For each director, return the director's name together with the title(s) of the movie(s) they directed that received the highest rating among all of their movies, and the value of that rating. Ignore movies whose director is NULL.
 
 ### Expected Query Result:
+
+```
 James Cameron	Avatar	5
 Robert Wise	The Sound of Music	3
 Steven Spielberg	Raiders of the Lost Ark	4
 Victor Fleming	Gone with the Wind	4
+```
