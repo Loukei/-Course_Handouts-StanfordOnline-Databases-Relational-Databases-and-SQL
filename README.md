@@ -31,7 +31,7 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 	- Data Modification Statements
 - Exercise
   - SQL Movie-Rating Query Exercises (9 Questions)
-  - SQL Movie-Rating Query Exercises Extras
+  - [SQL Movie-Rating Query Exercises Extras](Quiz&Homeworks/SQL%20Movie-Rating%20Query%20Exercises%20Extras/SQL%20Movie-Rating%20Query%20Exercises%20Extras.md)
   - SQL Social-Network Query Exercises (9 Questions)
   - SQL Social-Network Query Exercises Extras
   - SQL Movie-Rating Modification Exercises (3 Questions)
@@ -73,3 +73,5 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 - 繳交程式作業的時候，不會對程式碼內容進行邏輯測試，因此有可能用不合題目的方式"做出"正確答案
   - 舉例像是"求出1980年前的電影平均評分"，答案的結果可能是"3.5"，但是學生也可以用`select 3.5`來通過測驗。
   - 不確定是否只有這門課的問題
+
+[]
