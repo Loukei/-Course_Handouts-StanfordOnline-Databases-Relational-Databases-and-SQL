@@ -206,3 +206,7 @@ Robert Wise	The Sound of Music	3
 Steven Spielberg	Raiders of the Lost Ark	4
 Victor Fleming	Gone with the Wind	4
 ```
+
+## Ref
+
+- [Exercise page](https://learning.edx.org/course/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@sequential+block@9b0391c8a8ad4b8e9b455b2636959606/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@vertical+block@ff4d7e8ec0bd4f148d4b314fbcd97a2f)
