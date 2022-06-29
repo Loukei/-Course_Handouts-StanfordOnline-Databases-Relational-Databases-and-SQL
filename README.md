@@ -4,9 +4,9 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 
 ## Repo Index
 
-- [Notes]() 上課筆記
-- [Quiz&Homeworks](https://github.com/Loukei/Course_StanfordOnline_Databases-Relational-Databases-and-SQL/tree/main/Quiz%26Homeworks) 測驗與作業的程式碼
-- [Handout](https://github.com/Loukei/Course_StanfordOnline_Databases-Relational-Databases-and-SQL/tree/main/Handout) 課程講義
+- Notes 上課筆記
+- Quiz&Homeworks 測驗與作業的程式碼
+- [Handout](Handout/Course_Handouts.md) 課程講義
 - [Example Database](https://github.com/Loukei/Course_StanfordOnline_Databases-Relational-Databases-and-SQL/tree/main/Example%20Database) 課程講解用的資料庫
 
 ## Course Link
@@ -21,21 +21,21 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 	- Querying Relational Databases
 - SQL
 	- Introduction to SQL
-	- Basic SELECT Statement
+	- Basic `SELECT` Statement
 	- Table Variables and Set Operators
-	- Subqueries in WHERE Clause
-	- Subqueries in FROM and SELECT
-	- The JOIN Family of Operators
+	- Subqueries in `WHERE` Clause
+	- Subqueries in `FROM` and `SELECT`
+	- The `JOIN` Family of Operators
 	- Aggregation
-	- NULL Values
+	- `NULL` Values
 	- Data Modification Statements
 - Exercise
-  - SQL Movie-Rating Query Exercises (9 Questions)
+  - [SQL Movie-Rating Query Exercises](Quiz&Homeworks/SQL%20Movie-Rating%20Query%20Exercises/SQL%20Movie-Rating%20Query%20Exercises.md)
   - [SQL Movie-Rating Query Exercises Extras](Quiz&Homeworks/SQL%20Movie-Rating%20Query%20Exercises%20Extras/SQL%20Movie-Rating%20Query%20Exercises%20Extras.md)
-  - SQL Social-Network Query Exercises (9 Questions)
-  - SQL Social-Network Query Exercises Extras
-  - SQL Movie-Rating Modification Exercises (3 Questions)
-  - SQL Social-Network Modification Exercises (3 Questions)
+  - [SQL Social-Network Query Exercises](Quiz&Homeworks/SQL%20Social-Network%20Query%20Exercises/SQL%20Social-Network%20Query%20Exercises.md) 
+  - [SQL Social-Network Query Exercises Extras](quiz/../Quiz&Homeworks/SQL%20Social-Network%20Query%20Exercises%20Extras/SQL%20Social-Network%20Query%20Exercises%20Extras.md)
+  - [SQL Movie-Rating Modification Exercises](Quiz&Homeworks/SQL%20Movie-Rating%20Modification%20Exercises/SQL%20Movie-Rating%20Modification%20Exercises.md)
+  - [SQL Social-Network Modification Exercises](Quiz&Homeworks/SQL%20Social-Network%20Modification%20Exercises/SQL%20Social-Network%20Modification%20Exercises.md)
 
 ## 個人認為比較困難的題目
 
@@ -73,5 +73,3 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 - 繳交程式作業的時候，不會對程式碼內容進行邏輯測試，因此有可能用不合題目的方式"做出"正確答案
   - 舉例像是"求出1980年前的電影平均評分"，答案的結果可能是"3.5"，但是學生也可以用`select 3.5`來通過測驗。
   - 不確定是否只有這門課的問題
-
-[]

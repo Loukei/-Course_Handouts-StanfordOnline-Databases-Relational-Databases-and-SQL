@@ -29,6 +29,7 @@ It's time for the seniors to graduate. Remove all 12th graders from Highschooler
 ### Expected Query Result
 
 To check your data modification statement, we ran the following query after your modification:
+
 ``` sql
 SELECT *
 FROM Highschooler
@@ -36,6 +37,7 @@ ORDER BY ID;
 ```
 
 #### Expected Query Result:
+
 ```
 1101	Haley	10
 1247	Alexis	11
@@ -71,6 +73,7 @@ ORDER BY H1.name, H1.grade;
 #### Expected Query Result:
 
 Before
+
 ``` txt
 Alexis	11	Kris	10
 Andrew	10	Cassandra	9
@@ -85,6 +88,7 @@ Kyle	12	Jessica	11
 ```
 
 After
+
 ```
 Alexis	11	Kris	10
 Andrew	10	Cassandra	9
@@ -105,6 +109,7 @@ For all cases where A is friends with B, and B is friends with C, add a new frie
 ### Expected Query Result
 
 To check your data modification statement, we ran the following query after your modification:
+
 ``` sql
 SELECT ID, name, grade,
   (SELECT count(*)
@@ -115,6 +120,7 @@ ORDER BY ID;
 ```
 
 #### Expected Query Result:
+
 ```
 1025	John	12	2
 1101	Haley	10	3

@@ -1,14 +1,19 @@
+# Couse Handouts Download Link
+
+**教材內容的版權屬於Standford大學所有**
+
+整理edX課程裡提供的教材下載連結
 
 - Introduction and Relational Databases
-	- [Introduction](https://learning.edx.org/course/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@sequential+block@ee78af0439c642bf8a50ec250504a9c8)
+	- Introduction
     	- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V001200_DTH.mp4)
     	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@137a1075e3b34f22bf7ccb89af4679f3/handler/transcript/download)
     	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@CourseIntro.pdf)
-	- [The Relational Model](https://learning.edx.org/course/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@sequential+block@1c56b0cee7e6484097f34528892b74e4)   	
+	- The Relational Model   	
     	- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V001100_DTH.mp4)
     	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@22ef98f921294e93b227f34ca0e7e030/handler/transcript/download)
     	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@RelationalModel__1_.pdf)
-	- [Querying Relational Databases](https://learning.edx.org/course/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@sequential+block@64a48d778e0a484c8177e7db230b7852)
+	- Querying Relational Databases
         - [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V001300_DTH.mp4)
     	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@0c5a8033ce6c4a8d9cce525f05cd817f/handler/transcript/download)
     	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@RelationalQuerying.pdf)
@@ -19,7 +24,7 @@
     	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLIntro.pdf)
     	- [College Data](https://courses.edx.org/assets/courseware/v1/bc24afe0c983ffb91f39b37c56dc46c3/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/CollegeData.sql)
     	- [Colledge Schema](https://courses.edx.org/assets/courseware/v1/7be258f060155f581b3cf0d092235ce6/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/CollegeSchema.sql)
-	- Basic SELECT Statement
+	- Basic `SELECT` Statement
     	- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000100_DTH.mp4)
     	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-basic_select_statement/handler/transcript/download)
     	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLSelect.pdf)
@@ -29,27 +34,27 @@
     	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-table_variables_and_set_operators/handler/transcript/download)
     	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLTableVarsSetOps.pdf)
     	- [SQL Script](https://courses.edx.org/assets/courseware/v1/54ca6d17f1017d167342af448327c13b/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/TableVarsSetOps.sql)
-	- Subqueries in WHERE Clause
+	- Subqueries in `WHERE` Clause
     	- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000600_DTH.mp4)
     	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-subqueries_in_where/handler/transcript/download)
     	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLSubqueriesWhere.pdf)
     	- [SQL Script](https://courses.edx.org/assets/courseware/v1/f8812c9d0060c6c8f8e1e9a9b43b2d1b/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/SubqueriesWhere.sql)
-	- Subqueries in FROM and SELECT
-        - video
-    	- video_subtitles
-    	- slides
-    	- SQL Script
-	- The JOIN Family of Operators
-    	- video
-    	- video_subtitles
-    	- slides
-    	- SQL Script
+	- Subqueries in `FROM` and `SELECT`
+        - [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000500_DTH.mp4)
+    	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-subqueries_in_from_and_select/handler/transcript/download)
+    	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLSubqueriesFromSelect.pdf)
+    	- [SQL Script](https://courses.edx.org/assets/courseware/v1/f0fe505318b00ab6c3f2e62720e48e1f/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/SubqueriesFromSelect.sql)
+	- The `JOIN` Family of Operators
+    	- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000800_DTH.mp4)
+    	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-join_operators/handler/transcript/download)
+    	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLJoinOperators.pdf)
+    	- [SQL Script](https://courses.edx.org/assets/courseware/v1/e651bd51cbdda5fb9c11b49c3afc7d86/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/JoinOperators.sql)
 	- Aggregation
     	- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V001000_DTH.mp4)
     	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-aggregation/handler/transcript/download)
     	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLAggregation.pdf)
     	- [SQL Script](https://courses.edx.org/assets/courseware/v1/af466e464cc26d7188ce621c83fe8127/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/SQLAggregation.sql)
-	- NULL Values
+	- `NULL` Values
     	- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000900_DTH.mp4)
     	- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-null_values/handler/transcript/download)
     	- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLNulls.pdf)
