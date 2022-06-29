@@ -1,5 +1,7 @@
 # SQL Movie-Rating Query Exercises
 
+[**BACK TO README**](../../README.md)
+
 You've started a new movie-rating website, and you've been collecting data on reviewers' ratings of various movies. There's not much data yet, but you can still try out some interesting queries. Here's the schema:
 
 Movie ( mID, title, year, director )

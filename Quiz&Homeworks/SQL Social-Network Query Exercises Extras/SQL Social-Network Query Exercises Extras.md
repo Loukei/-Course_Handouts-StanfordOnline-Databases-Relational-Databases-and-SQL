@@ -1,5 +1,7 @@
 # SQL Social-Network Query Exercises Extras
 
+[**BACK TO README**](../../README.md)
+
 Students at your hometown high school have decided to organize their social network using databases. So far, they have collected information about sixteen students in four grades, 9-12. Here's the schema:
 
 Highschooler ( ID, name, grade )

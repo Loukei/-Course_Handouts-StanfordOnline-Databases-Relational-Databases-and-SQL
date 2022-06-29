@@ -1,5 +1,7 @@
 # SQL Movie-Rating Modification Exercises
 
+[**BACK TO README**](../../README.md)
+
 You've started a new movie-rating website, and you've been collecting data on reviewers' ratings of various movies. There's not much data yet, but you can still try out some data modifications. Here's the schema:
 
 Movie ( mID, title, year, director )
@@ -12,6 +14,8 @@ Rating ( rID, mID, stars, ratingDate )
 English: The reviewer rID gave the movie mID a number of stars rating (1-5) on a certain ratingDate.
 
 Your modifications will run over a small data set conforming to the [schema](rating.sql).
+
+---
 
 ## Questions
 
@@ -45,6 +49,8 @@ Expected Query Result:
 209,Roger Ebert
 ```
 
+---
+
 ### Q2
 
 For all movies that have an average rating of 4 stars or higher, add 25 to the release year. (Update the existing tuples; don't insert new tuples.)
@@ -70,6 +76,8 @@ Expected Query Result:
 108	Raiders of the Lost Ark	1981	Steven Spielberg
 ```
 
+---
+
 ### Q3
 
 Remove all ratings where the movie's year is before 1970 or after 2000, and the rating is fewer than 4 stars.
@@ -94,3 +102,5 @@ Expected Query Result:
 107	Avatar	2034	James Cameron
 108	Raiders of the Lost Ark	1981	Steven Spielberg
 ```
+
+---
