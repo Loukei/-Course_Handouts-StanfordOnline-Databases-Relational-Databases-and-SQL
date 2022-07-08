@@ -4,7 +4,7 @@ StanfordOnline SOE.YDB-SQL0001 Course Note
 
 ## Repo Index
 
-- Notes 上課筆記
+- [Notes](Notes/【課程筆記】〔StanfordOnline〕Relational%20Databases%20and%20SQL.md) 上課筆記
 - Quiz&Homeworks 測驗與作業的程式碼
 - [Handout](Handout/Course_Handouts.md) 課程講義
 - [Example Database](https://github.com/Loukei/Course_StanfordOnline_Databases-Relational-Databases-and-SQL/tree/main/Example%20Database) 課程講解用的資料庫
