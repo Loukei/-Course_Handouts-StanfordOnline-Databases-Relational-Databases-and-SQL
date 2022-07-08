@@ -65,6 +65,12 @@ Ch1. Introduction and Relational Databases
 	- 使用前者的系統做增刪查改
 	- 維護資料庫系統的運行
 
+## Materials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V001200_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@137a1075e3b34f22bf7ccb89af4679f3/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@CourseIntro.pdf)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]

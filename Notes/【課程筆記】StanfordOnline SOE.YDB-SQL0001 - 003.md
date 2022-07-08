@@ -33,6 +33,12 @@ course_name: "Relational Databases and SQL"
 
 ex: `IDs of students with GPA>3.7 applying to Standford`
 
+## Material
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V001300_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@0c5a8033ce6c4a8d9cce525f05cd817f/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@RelationalQuerying.pdf)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]

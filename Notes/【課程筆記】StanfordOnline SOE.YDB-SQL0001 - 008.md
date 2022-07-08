@@ -186,6 +186,13 @@ ERROR:  more than one row returned by a subquery used as an expression
 - [[#2 6 1 DEMO Students whose scaled GPA changes GPA by more than 1]]的`scaledGPA`的意義是什麼? 為何要用絕對值計算?
 - [[#2 6 2 DEMO Colleges paired with the highest GPA of their applicants]]的subquery可以抓到
 
+## Matreials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000500_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-subqueries_in_from_and_select/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLSubqueriesFromSelect.pdf)
+- [SQL Script](https://courses.edx.org/assets/courseware/v1/f0fe505318b00ab6c3f2e62720e48e1f/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/SubqueriesFromSelect.sql)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]

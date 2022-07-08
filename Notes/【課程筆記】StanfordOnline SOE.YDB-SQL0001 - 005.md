@@ -95,6 +95,13 @@ from Student;
 - [SQL AS Keyword](https://www.w3schools.com/sql/sql_ref_as.asp)
 - [SQL Server Computed Columns](https://www.sqlservertutorial.net/sql-server-basics/sql-server-computed-columns/)
 
+## Materials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000100_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-basic_select_statement/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLSelect.pdf)
+- [SQL Script](https://courses.edx.org/assets/courseware/v1/92a4eeeeb52e4b945c39fdeb7ca12c62/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/BasicSelect.sql)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]

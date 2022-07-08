@@ -211,6 +211,13 @@ having max(GPA) < (select avg(GPA) from Student);
 `where`則是在分組之前過濾
 - [SQL中WHERE和HAVING子句的區別？](https://kknews.cc/zh-tw/code/vrgvx8q.html)
 
+## Materials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V001000_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-aggregation/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLAggregation.pdf)
+- [SQL Script](https://courses.edx.org/assets/courseware/v1/af466e464cc26d7188ce621c83fe8127/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/SQLAggregation.sql)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]

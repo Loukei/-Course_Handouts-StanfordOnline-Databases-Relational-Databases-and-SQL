@@ -160,6 +160,13 @@ update Apply
 set decision = 'Y';
 ```
 
+## Materials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000700_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-data_modification_statements/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLModifications.pdf)
+- [SQL Script](https://courses.edx.org/assets/courseware/v1/4278c5413e5a4ed9a198f8b01d49bf16/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/SQLModifications.sql)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]

@@ -82,6 +82,13 @@ from Student;
 
 `count`只是其中一種會被`NULL`影響的情況，剩餘的會在後續補充。
 
+## Materials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000900_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-null_values/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLNulls.pdf)
+- [SQL Script](https://courses.edx.org/assets/courseware/v1/9c8d542fa15c2564fff9afd5eed1cbb5/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/SQLNulls.sql)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]

@@ -544,6 +544,12 @@ drop table T3;
 - **做`outer join`時要尤其小心結合的順序，因為不同順序會得到完全錯誤的結果**
 - [Are left outer joins associative?](https://stackoverflow.com/questions/20022196/are-left-outer-joins-associative)
 
+## Materials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000800_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-join_operators/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLJoinOperators.pdf)
+- [SQL Script](https://courses.edx.org/assets/courseware/v1/e651bd51cbdda5fb9c11b49c3afc7d86/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/JoinOperators.sql)
 
 ## Course link
 

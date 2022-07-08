@@ -219,6 +219,13 @@ WHERE A1.sID = A2.sID
 我們只能"排除有修CS但不修EE的人"，但不能排除"有修CS與其他非EE的人(如歷史)"
 目前我們所學的**不能排除這種情況**,將在下一節討論正確做法[[#2 5 4 Demo 找出有修CS的學生裡面沒有修EE的學生]]
 
+## Materials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000200_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-table_variables_and_set_operators/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLTableVarsSetOps.pdf)
+- [SQL Script](https://courses.edx.org/assets/courseware/v1/54ca6d17f1017d167342af448327c13b/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/TableVarsSetOps.sql)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]

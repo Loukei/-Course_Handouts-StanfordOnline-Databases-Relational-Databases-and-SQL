@@ -41,6 +41,12 @@ Or set of attributes whose combined values are unique
 			- key: a attribute that can identify the entity in table, which means if attribute is a key, than you can't find any 2 row have same key value in this table. ex: "user_id" is used to identify those
 			- foreign key: 當一個table裡面的實體需要參照外部的實體時
 
+## Materials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V001100_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@22ef98f921294e93b227f34ca0e7e030/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@RelationalModel__1_.pdf)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]

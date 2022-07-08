@@ -471,6 +471,13 @@ where sID = any (select sID from Apply where major = 'CS')
 
 正確的作法是當前的`sID`不能符合任何一個有修EE的學生的集合
 
+## Materials
+
+- [video](https://edx-video.net/StanfordOnlineSOE.YDB-SQL0001-V000600_DTH.mp4)
+- [video_subtitles](https://courses.edx.org/courses/course-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020/xblock/block-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@video+block@vid-subqueries_in_where/handler/transcript/download)
+- [slides](https://courses.edx.org/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block@SQLSubqueriesWhere.pdf)
+- [SQL Script](https://courses.edx.org/assets/courseware/v1/f8812c9d0060c6c8f8e1e9a9b43b2d1b/asset-v1:StanfordOnline+SOE.YDB-SQL0001+2T2020+type@asset+block/SubqueriesWhere.sql)
+
 ## Course link
 
 - [[【課程筆記】〔StanfordOnline〕Relational Databases and SQL]]
