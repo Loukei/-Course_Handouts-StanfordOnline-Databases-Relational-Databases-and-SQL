@@ -2,6 +2,8 @@
 
 StanfordOnline SOE.YDB-SQL0001 Course Note
 
+**All course material is beloning to Standford Univerisity. **
+
 ## Repo Index
 
 - [Notes](Notes/【課程筆記】〔StanfordOnline〕Relational%20Databases%20and%20SQL.md) 上課筆記
